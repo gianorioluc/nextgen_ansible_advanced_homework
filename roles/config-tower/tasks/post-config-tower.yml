@@ -51,6 +51,7 @@
     tower_password: r3dh4t1!
     tower_verify_ssl: no
     ssh_key_data: /root/.ssh/mykey.pem
+    ssh_key_unlock: ZXC123asd
     username: "{{ opentlc_login }}"
 
 - name: Remove secret
