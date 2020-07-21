@@ -3,7 +3,7 @@
   static: no
 
 # Setup/install tasks.
-- include: setup-redhat.yml
+- include: redhat-setup.yml
   when: ansible_os_family == 'RedHat'
   static: no
 
