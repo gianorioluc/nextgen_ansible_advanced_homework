@@ -21,4 +21,4 @@
       - httpie
       - python-pip
     state: present
-    disablerepo: "rhel-7-server-extras-rpms-new"
+    enablerepo: "rhel-7-server-extras-rpms-new"
