@@ -2,7 +2,7 @@
 
   - name: Create a server instance
     os_server:
-      cloud: ospcloud
+      cloud: openstack
       name: "{{ item.0.name }}"
       image: rhel-guest
       meta: "group={{ item.1.group }},deployment_name={{ item.1.deployment_name }}"
@@ -25,7 +25,7 @@
 
   - name: Add floating IP to "{{ item.key }}"
     os_floating_ip:
-      cloud: ospcloud
+      cloud: openstack
       state: present
       reuse: yes
       server: "{{ item.key }}"
