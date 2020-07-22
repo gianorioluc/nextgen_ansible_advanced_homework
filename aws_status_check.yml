@@ -1,4 +1,4 @@
-- hosts: tag_instance_filter_three_tier_app_alberto_gonzalezg_ibm_com
+- hosts: all
   gather_facts: false
   tasks:
   - name: Check the instances status
