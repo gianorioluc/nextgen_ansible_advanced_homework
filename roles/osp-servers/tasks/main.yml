@@ -6,7 +6,7 @@
       name: "{{ item.0.name }}"
       image: "{{ item.0.image }}"
       meta: "group={{ item.1.group }},deployment_name={{ item.1.deployment_name }}"
-      flavor: "{{ item.0.flavor }}"
+      flavor: m2.small
       security_groups: "{{ item.0.security_group }}"
       key_name: ansible_ssh
       wait: yes
