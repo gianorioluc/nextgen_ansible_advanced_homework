@@ -18,4 +18,3 @@
     shell: /root/ansible-tower-setup-latest/setup.sh
     async: 3600
     poll: 36
-
